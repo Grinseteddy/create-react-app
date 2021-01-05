@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import NotificationButton from "./notificationButton";
 
 function App() {
   return (
@@ -17,7 +18,9 @@ function App() {
         >
           Learn React
         </a>
+        <NotificationButton></NotificationButton>
       </header>
+
     </div>
   );
 }
